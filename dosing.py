@@ -29,7 +29,7 @@ def merge_filter(left_df, right_df, viscode, svdose, ecsdstxt):
 	return merged
 
 #Exports data as a .csv to output/results.csv
-def export_data(data, output):
+def export_data(data, output): 
 	if output != "":
 		if not os.path.exists(output):
 			os.makedirs(output)
